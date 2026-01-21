@@ -1,4 +1,4 @@
-# Pipeline de Transcrição de Áudio com IA Generativa no Google Cloud
+# Pipeline de Transcrição de Áudio com Gemini
 
 Este repositório contém o código-fonte de um pipeline automatizado e escalável para transcrição de arquivos de áudio utilizando o poder dos modelos de IA Generativa do Google (Gemini) na Google Cloud Platform (GCP).
 
@@ -95,5 +95,6 @@ As dependências do projeto estão listadas no arquivo `requirements.txt`:
     ```
 
 * **`deploy_job.sh`**: Arquivo responsável por realizar o deploy da aplicação no **Cloud Run Jobs**. Após preencher o .env com os dados necessários, basta executar esse arquivo.
+
 
 
