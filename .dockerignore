@@ -1,0 +1,14 @@
+.env
+.git
+.gitignore
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.venv/
+venv/
+env/
+deploy_job.sh
+Dockerfile
+README.md
+.env.example

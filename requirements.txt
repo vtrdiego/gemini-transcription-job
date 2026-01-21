@@ -1,0 +1,5 @@
+json-repair==0.55.0
+python-dotenv==1.2.1
+google-genai==1.59.0
+google-cloud-storage==2.19.
+google-cloud-bigquery==3.40.0
