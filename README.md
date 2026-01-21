@@ -20,7 +20,7 @@ O principal objetivo deste projeto é transformar dados não estruturados (áudi
 
 ## Arquitetura da Solução
 
-A arquitetura é baseada em eventos e processamento em lote (batch), utilizando serviços gerenciados do Google Cloud para garantir escalabilidade e baixa manutenção.
+A arquitetura é baseada em processamento em lote (batch), utilizando serviços gerenciados do Google Cloud para garantir escalabilidade e baixa manutenção.
 
 <div align="center">
   <img src="./diagrama_job_transcricao.png" alt="Diagrama da Arquitetura da Solução" width="680"/>
@@ -95,6 +95,7 @@ As dependências do projeto estão listadas no arquivo `requirements.txt`:
     ```
 
 * **`deploy_job.sh`**: Arquivo responsável por realizar o deploy da aplicação no **Cloud Run Jobs**. Após preencher o .env com os dados necessários, basta executar esse arquivo.
+
 
 
 
